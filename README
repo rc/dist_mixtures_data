@@ -1,0 +1,8 @@
+dist_mixtures_data
+==================
+
+Data files used within https://github.com/rc/dist_mixtures project and related
+scientific article.
+
+The image and segmentaion data are in `data` directory. The results obtained by
+`dist_mixtures` are in `results` directory.

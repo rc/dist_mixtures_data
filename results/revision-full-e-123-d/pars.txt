@@ -1,0 +1,29 @@
+command line
+------------
+
+./fit_von_mises.py -c examples/cmp_ellipse_imagej.py -a *.txt data-aorta/ --rc=font.size=18
+
+options
+-------
+
+area_angles: True
+conf: examples/cmp_ellipse_imagej.py
+dir_pattern: *
+n_components: None
+n_merge_bins: None
+neg_shift: True
+output_dir: None
+parameters: None
+plot_bins_step: None
+rc: {'font.size': 18}
+show: False
+spread_data: False
+
+defaults
+--------
+
+model_class: <class 'dist_mixtures.mixture_von_mises.VonMisesMixture'>
+n_components: 2
+output_dir: output
+parameters: [2.0, 0.0]
+solver: ('bfgs', {'disp': True, 'gtol': 1e-08})
